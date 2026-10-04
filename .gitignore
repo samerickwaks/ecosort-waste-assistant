@@ -1,0 +1,38 @@
+# ---- Large data: the RealWaste image set (668 MB, 4,752 files) ----
+# Third-party dataset, CC BY-NC-SA 4.0. Not redistributed here.
+# Download separately and unzip into ./RealWaste/ — see DATASET.md
+RealWaste/
+
+# ---- Trained model weights (regenerable by rerunning the notebook) ----
+*.weights.h5
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# ---- Build intermediates ----
+build/_merged.py
+build/executed_backup.ipynb
+build/execute.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ---- Model/tokenizer caches ----
+.cache/
+hf_cache/
+transformers_cache/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
