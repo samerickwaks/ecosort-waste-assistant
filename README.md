@@ -1,6 +1,6 @@
 # EcoSort Waste Management Assistant
 
-Moringa School — Module 8 Summative Lab: CNNs, transformers and retrieval-augmented generation.
+Moringa School - Module 8 Summative Lab: CNNs, transformers and retrieval-augmented generation.
 
 An end-to-end waste-sorting assistant that takes a photo of an item **or** a resident's
 written description, classifies the material, and generates grounded disposal instructions
